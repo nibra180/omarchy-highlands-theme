@@ -1,0 +1,171 @@
+# Charcoal and peat surfaces with a pine-to-lichen edge. Warm mist carries
+# text while moss, heather, and weathered stone preserve semantic separation.
+
+[bar]
+background       = "#191919"
+background-alpha = 0.95
+text             = "#f2e9cd"
+active           = "#abeaa5"
+scale-with-font  = true
+size-horizontal  = 28
+size-vertical    = 30
+
+[hyprland]
+active-border            = "rgb(4e8c6d) rgb(e4faa9) 35deg"
+active-border-foreground = "rgb(57a57e) rgb(f5efda) 35deg"
+
+[controls]
+normal-color        = "#f2e9cd"
+normal-fill-alpha   = 0.04
+normal-border       = "rgb(67655f) rgb(373737) 35deg"
+normal-border-width = 1
+normal-border-alpha = 0.46
+
+hover-cursor-color        = "#f5efda"
+hover-cursor-fill-alpha   = 0.08
+hover-cursor-border       = "rgb(4e8c6d) rgb(e4faa9) 35deg"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.58
+
+focus-color        = "#f5efda"
+focus-fill-alpha   = 0.10
+focus-border       = "hyprland.active-border"
+focus-border-width = 1
+focus-border-alpha = 0.78
+
+selected-color        = "#f5efda"
+selected-fill-alpha   = 0.16
+selected-border       = "#4e8c6d"
+selected-border-width = 0
+selected-border-alpha = 0.90
+
+pressed-color        = "#e5ff9a"
+pressed-fill-alpha   = 0.22
+selection-color      = "#4e8c6d"
+selection-fill-alpha = 0.32
+
+[spacing]
+scale = 1.0
+scale-with-font = true
+control-gap = 8
+control-padding-x = 11
+control-padding-y = 6
+input-padding-y = 7
+control-height = 29
+popup-row-height = 30
+row-gap = 7
+row-padding-x = 12
+label-gap = 4
+panel-gap = 14
+panel-padding = 18
+popup-padding = 14
+dropdown-width = 240
+searchable-dropdown-width = 268
+number-field-width = 120
+searchable-popup-min-height = 220
+
+[font]
+base-size = 12
+caption = 10
+body-small = 11
+body = 12
+subtitle = 13
+title = 14
+heading = 16
+display = 24
+display-large = 28
+icon-small = 11
+icon = 14
+icon-large = 18
+
+[popups]
+background       = "#191919"
+background-alpha = 0.96
+text             = "#f2e9cd"
+border           = "hyprland.active-border"
+border-alpha     = 0.84
+border-width     = 2
+
+[tooltip]
+background       = "#111111"
+background-alpha = 0.98
+text             = "#f2e9cd"
+border           = "hyprland.active-border-foreground"
+border-alpha     = 0.58
+
+[notifications]
+background       = "#191919"
+background-alpha = 0.97
+text             = "#f2e9cd"
+border           = "hyprland.active-border"
+border-alpha     = 0.80
+border-width     = 2
+countdown        = "#e4faa9"
+
+[launcher]
+background                 = "#191919"
+background-alpha           = 0.96
+text                       = "#f4ecd5"
+border                     = "hyprland.active-border"
+border-alpha               = 0.88
+border-width               = 2
+scrim                      = "#111111"
+scrim-alpha                = 0.68
+selected-background        = "rgb(373737) rgb(212121) 35deg"
+selected-background-alpha  = 0.32
+selected-text              = "#f5efda"
+selected-border            = "#4e8c6d"
+selected-border-alpha      = 0.92
+selected-border-width      = 0
+selected-border-width-left = 3
+
+[menu]
+background                 = "#191919"
+background-alpha           = 0.97
+text                       = "#f4ecd5"
+border                     = "hyprland.active-border"
+border-alpha               = 0.88
+border-width               = 2
+scrim                      = "#111111"
+scrim-alpha                = 0.66
+selected-background        = "rgb(373737) rgb(212121) 35deg"
+selected-background-alpha  = 0.32
+selected-text              = "#f5efda"
+selected-border            = "#4e8c6d"
+selected-border-alpha      = 0.92
+selected-border-width      = 0
+selected-border-width-left = 3
+
+[polkit]
+background       = "#191919"
+background-alpha = 0.98
+text             = "#f2e9cd"
+text-error       = "#b5aa66"
+border           = "hyprland.active-border"
+border-error     = "#b5aa66"
+border-alpha     = 0.96
+scrim            = "#111111"
+scrim-alpha      = 0.72
+accent           = "#4e8c6d"
+
+[lock]
+background       = "#191919"
+background-alpha = 0.90
+text             = "#f2e9cd"
+placeholder      = "#b6af9a"
+text-error       = "#b5aa66"
+border           = "rgb(67655f) rgb(212121) 35deg"
+border-active    = "hyprland.active-border"
+border-error     = "#b5aa66"
+border-alpha     = 0.96
+selection        = "#4e8c6d"
+selection-alpha  = 0.45
+
+[image-picker]
+scrim                   = "#111111"
+scrim-alpha             = 0.70
+text                    = "#f2e9cd"
+selected-border         = "#4e8c6d"
+selected-border-alpha   = 1.0
+unselected-border       = "#67655f"
+unselected-border-alpha = 0.40
