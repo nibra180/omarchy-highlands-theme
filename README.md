@@ -26,16 +26,29 @@ Reapply it later with:
 omarchy theme set highlands
 ```
 
+## Neovim syntax mapping
+
+`neovim.lua` keeps the Highlands palette intact but gives code a clearer hierarchy: warm keywords, pine functions, lichen types, moss strings, cyan members, plain variables, and more readable comments.
+
+Omarchy deliberately strips Lua from Git-installed themes and generates a safe replacement from `colors.toml`. The normal install command still works, but it uses Aether's default syntax assignments. To opt into the repository's custom mapping, make a local copy without Git metadata:
+
+```bash
+cp -a ~/.config/omarchy/themes/highlands ~/.config/omarchy/themes/highlands-local
+rm -rf ~/.config/omarchy/themes/highlands-local/.git
+omarchy theme set highlands-local
+```
+
 ## Included
 
 - `colors.toml` defines complete Omarchy semantic and ANSI color roles.
+- `neovim.lua` contains the custom Aether palette and syntax assignments.
 - `shell.toml` uses pine-to-lichen borders over charcoal and peat surfaces.
 - `btop.theme`, `chromium.theme`, and `icons.theme` cover app-specific details.
 - `backgrounds/` contains two 6880x2880 wallpapers; the illustrated version is the default.
 - `preview.png` is the 1800x1012 gallery preview.
 - `DESIGN.md` records the palette and visual rules.
 
-Omarchy generates Hyprland, terminal, Neovim, Helix, Pi, Obsidian, keyboard, and VS Code files from `colors.toml`. The repository contains no custom Lua or terminal configuration, so Git-installed copies retain the intended design.
+Omarchy generates Hyprland, terminal, Neovim, Helix, Pi, Obsidian, keyboard, and VS Code files from `colors.toml`. For Git-installed copies, it replaces the repository's `neovim.lua` with its generated configuration while retaining the same palette.
 
 ## Artwork and affiliation
 
